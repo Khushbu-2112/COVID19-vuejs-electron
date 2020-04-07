@@ -7,13 +7,13 @@
     </div>
     <div class="row" v-if="load">
       <div class="col-md-4">
-        <Card :cases="worldWideResult.confirmed.value" />
+        <Card :cases="worldWideResult.confirmed.value" title="Confirmed Cases" />
       </div>
       <div class="col-md-4" v-if="countryList">
-        <Card :cases="worldWideResult.recovered.value" />
+        <Card :cases="worldWideResult.recovered.value" title="Recovered Cases" />
       </div>
       <div class="col-md-4">
-        <Card :cases="worldWideResult.deaths.value" />
+        <Card :cases="worldWideResult.deaths.value" title="Total Deaths" />
       </div>
     </div>
     <div class="row bg-light mt-5">
