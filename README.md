@@ -1,5 +1,7 @@
 # covid19
 
+[Live Demo](https://tusharkanjariya.github.io/COVID19-vuejs-electron/)
+
 ## Project setup
 ```
 yarn install
