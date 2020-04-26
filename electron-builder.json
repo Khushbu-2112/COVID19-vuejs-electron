@@ -1,0 +1,11 @@
+{
+  "asar": true,
+  "appId": "com.app.covid19",
+  "productName": "Covid-19 Tracker",
+  "copyright": "Copyright © 2020 Tushar Kanjariya",
+  "nsis": {
+    "perMachine": true,
+    "allowToChangeInstallationDirectory": false,
+    "license": "LICENSE.txt"
+  }
+}
